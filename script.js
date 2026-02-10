@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
             e.preventDefault();
             
             const cardTitle = this.closest('.card-content').querySelector('.card-title').textContent;
-            const phoneNumber = '1234567890'; // Replace with your WhatsApp number
+            const phoneNumber = '9709024554'; // Replace with your WhatsApp number
             const message = `Hi! I'm interested in ${cardTitle}. Can you provide more details?`;
             
             const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
